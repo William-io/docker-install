@@ -37,12 +37,14 @@ newgrp docker
 
 docker --version
 ```
+4. Restart
+5. Download Dockermanager/install: [download](https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*jkex6h*_ga*Njc0OTU3MDgwLjE3NDM3MTY0MTA.*_ga_XJWPQMJYHQ*MTc0MzcyMzU1MS4yLjEuMTc0MzcyNDAzNS40Mi4wLjA.)
 
-4. Download SQLServer
+6. Download SQLServer
 ```bash
 docker pull mcr.microsoft.com/mssql/server
 ```
-5. RUN
+7. RUN
 ```bash
 docker run --name sqlserver -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=1q2w3e4r@#$" -p 1433:1433 -d mcr.microsoft.com/mssql/server
 ```
@@ -54,4 +56,3 @@ Se você utilizou as mesmas configurações deste artigo, sua Connection String 
 Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=True;
 ```
 
-Download Dockermanager: [download](https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*jkex6h*_ga*Njc0OTU3MDgwLjE3NDM3MTY0MTA.*_ga_XJWPQMJYHQ*MTc0MzcyMzU1MS4yLjEuMTc0MzcyNDAzNS40Mi4wLjA.)
