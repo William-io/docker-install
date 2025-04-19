@@ -1,3 +1,16 @@
+//Remove snap-store
+
+```bash
+sudo snap remove snap-store
+rm -rf ~/snap/snap-store
+sudo apt install gnome-software
+
+//E, se em algum momento quiser adicionar suporte a Snap dentro do GNOME Software (não obrigatório),
+sudo apt install gnome-software-plugin-snap
+
+```
+
+
 1. Set up Docker's apt repository.
 ```bash
 sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
