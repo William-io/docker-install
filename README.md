@@ -51,7 +51,7 @@ newgrp docker
 docker --version
 ```
 4. Restart
-5. Download Dockermanager/install: [download](https://desktop.docker.com/linux/main/amd64/docker-desktop-amd64.deb?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64&_gl=1*jkex6h*_ga*Njc0OTU3MDgwLjE3NDM3MTY0MTA.*_ga_XJWPQMJYHQ*MTc0MzcyMzU1MS4yLjEuMTc0MzcyNDAzNS40Mi4wLjA.)
+5. Download Dockermanager/install: [download](https://desktop.docker.com/linux/main/amd64/191736/docker-desktop-amd64.deb?_gl=1*164fu39*_ga*MTkwMDk3MDkwOC4xNzQ3MTcxMzQ4*_ga_XJWPQMJYHQ*czE3NDcxNzEzNDckbzEkZzEkdDE3NDcxNzEzNjQkajQzJGwwJGgw)
 
 6. Download SQLServer
 ```bash
