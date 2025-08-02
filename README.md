@@ -56,3 +56,5 @@ Se você utilizou as mesmas configurações deste artigo, sua Connection String 
 Server=localhost,1433;Database=balta;User ID=sa;Password=1q2w3e4r@#$;Trusted_Connection=True;
 ```
 
+//sudo chmod u+x /usr/share/screen-resolution-extra/nvidia-polkit
+
